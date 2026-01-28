@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const API_URL = import.meta.env.VITE_API_URL || "https://health-backend-8nju.onrender.com/api";
-
+const API_URL = "https://health-backend-8nju.onrender.com/api";
 // Call the backend prediction API
 export const predictDisease = async (healthData) => {
     try {
